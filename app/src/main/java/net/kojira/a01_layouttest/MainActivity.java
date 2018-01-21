@@ -16,24 +16,35 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         final TextView text = findViewById(R.id.text);
         final ImageView imageView = findViewById(R.id.imageView);
-        Button button = findViewById(R.id.button);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button button = findViewById(R.id.次に進む);
+        imageView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 switch (count) {
                     case 0:
-                        text.setText("uuuuuuuuuuuuuuuu");
+                       // text.setText("ドンッ");
                         imageView.setImageResource(R.drawable.goriraen2);
                         break;
                     case 1:
-                        text.setText("eeeeeeeeeeeeee");
+                        imageView.setImageResource(R.drawable.goriraen);
+                       // text.setText("eeeeeeeeeeeeee");
                         break;
                     case 2:
-                        text.setText("oooooooooooooo");
+                        imageView.setImageResource(R.drawable.goriraen2);
+                        //text.setText("oooooooooooooo");
                         break;
                     case 3:
-                        text.setText("kkkkkkkkkkkkk");
+                        imageView.setImageResource(R.drawable.goriraen);
+                        //text.setText("kkkkkkkkkkkkk");
                         break;
+                    case 4:
+                        imageView.setImageResource(R.drawable.goriraen2);
+                        break;
+                    case 5:
+                        imageView.setImageResource(R.drawable.goriraen);
+                        break;
+                    case 6:
+                        imageView.setImageResource(R.drawable.goriraen2);
                 }
                 count += 1;
             }

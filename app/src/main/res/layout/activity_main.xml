@@ -9,44 +9,33 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="wrap_content"
-        android:layout_height="400dp"
+        android:layout_height="450dp"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/goriraen3" />
 
-    <LinearLayout
+    <Button
+        android:id="@+id/次に進む"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:layout_height="58dp"
+        android:text="次に進む" />
 
-        <Button
-            android:id="@+id/button6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+    <!--<TextView-->
+      <!--android:id="@+id/text"-->
+      <!--android:layout_width="match_parent"-->
+      <!--android:layout_height="35dp"-->
+      <!--android:text="今日からワッツのマネージャーかぁ、緊張するなぁ…" />-->
 
-        <Button
-            android:id="@+id/button5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="horizontal">-->
 
-    </LinearLayout>
+        <!--<Button-->
+            <!--android:id="@+id/button"-->
+            <!--android:layout_width="wrap_content"-->
+           <!--android:layout_height="wrap_content"-->
+          <!--android:text="Button" />-->
 
-    <TextView
-        android:id="@+id/text"
-        android:text="今日からワッツのマネージャーかぁ…"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <Button
-            android:id="@+id/button"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Button" />
-
-    </LinearLayout>
+    <!--</LinearLayout>-->
 
 </LinearLayout>
