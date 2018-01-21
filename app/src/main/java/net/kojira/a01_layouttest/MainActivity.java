@@ -17,7 +17,8 @@ public class MainActivity extends AppCompatActivity {
         final TextView text = findViewById(R.id.text);
         final ImageView imageView = findViewById(R.id.imageView);
         Button button = findViewById(R.id.次に進む);
-        imageView.setOnClickListener(new View.OnClickListener() {
+
+        button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 switch (count) {
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
                         imageView.setImageResource(R.drawable.goriraen2);
                 }
                 count += 1;
+
             }
         });
 
