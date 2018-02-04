@@ -11,7 +11,7 @@
         android:layout_width="wrap_content"
         android:layout_height="760dp"
         android:scaleType="centerCrop"
-        app:srcCompat="@drawable/goriraen3" />
+        app:srcCompat="@drawable/a001" />
 
     <Button
         android:id="@+id/次に進む"
